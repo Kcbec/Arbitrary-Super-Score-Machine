@@ -1,0 +1,3 @@
+C:\Users\kayce\source\repos\AssMachine\AssMachine\Debug\AssMachine.vcxproj.AssemblyReference.cache
+C:\Users\kayce\source\repos\AssMachine\AssMachine\Debug\AssMachine.MyForm.resources
+C:\Users\kayce\source\repos\AssMachine\AssMachine\Debug\AssMachine.vcxproj.GenerateResource.cache
