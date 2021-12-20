@@ -263,9 +263,10 @@ namespace AssMachine {
 			// 
 			this->button1->Font = (gcnew System::Drawing::Font(L"Anime Inept", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->button1->Location = System::Drawing::Point(167, 146);
+			this->button1->ForeColor = System::Drawing::SystemColors::ControlText;
+			this->button1->Location = System::Drawing::Point(136, 146);
 			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(93, 52);
+			this->button1->Size = System::Drawing::Size(136, 52);
 			this->button1->TabIndex = 17;
 			this->button1->Text = L"Math Button";
 			this->button1->UseVisualStyleBackColor = true;
@@ -340,11 +341,11 @@ namespace AssMachine {
 
 		int var2 = System::Convert::ToInt16(textBox6->Text) + System::Convert::ToInt16(textBox7->Text);
 
-		int var3 = var2 / 2;
+		double var3 = var2 / 2;
 
-		int var4 = var1 - var3;
+		double var4 = var1 - var3;
 
-		int Score = var4 / 5;
+		double Score = var4 / 5;
 
 		
 
